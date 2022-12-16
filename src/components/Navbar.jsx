@@ -45,8 +45,11 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
- 
+  display: inline-block;
 `;
+const Sublogo = styled.span`
+  display: inline-block;
+`
 const Right = styled.div`
   flex: 1;
   display: flex;
@@ -75,12 +78,13 @@ const Navbar = () => {
         </Left>
         <Center>
           <Logo>FUA.</Logo>
+          <Sublogo>MART</Sublogo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <Badge badgeContent={4} color="primary">
-            <ShoppingCartOutlinedIcon/>
+            <ShoppingCartOutlinedIcon />
           </Badge>
         </Right>
       </Wrapper>
