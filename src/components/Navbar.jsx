@@ -48,7 +48,7 @@ const Logo = styled.h1`
   display: inline-block;
 `;
 const Sublogo = styled.span`
-  display: inline-block;
+  font-size: 18px;
 `
 const Right = styled.div`
   flex: 1;
@@ -77,9 +77,8 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>FUA.</Logo>
-          <Sublogo>MART</Sublogo>
-        </Center>
+          <Logo>FUA.<Sublogo>MART</Sublogo></Logo>
+          </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
